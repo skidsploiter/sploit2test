@@ -1,17 +1,6 @@
 print("Loaded")
 -- // pls dont skid
 
---[[ 
-
-hi iusethis!\pls dont fuck my code up <3
-
-]]
--- REQUIRED
--- This basically adds a lot of UNC Functions and patches vulns.
--- thanks to raz for this (owner of scorpion)
--- fixing this loadstring soon :)
--- loadstring(game:HttpGet("https://raw.githubusercontent.com/RazAPI/Scorpion/refs/heads/main/Debug/x64/Model/MainEnvironment.lua"))()
--- loadstring(game:HttpGet("https://raw.githubusercontent.com/RazAPI/Scorpion/refs/heads/main/Debug/x64/Model/ProtectedEnvironment.lua"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/skidsploiter/sploit2test/refs/heads/main/env.lua"))()
 function getsenv(script_instance)
 	local env = getfenv(debug.info(2, 'f'))
