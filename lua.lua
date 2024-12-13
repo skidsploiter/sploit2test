@@ -78,7 +78,7 @@ end
 -- setclipboard("https://discord.gg/VxhjCgcj")
 -- this bad
 
-sploit = function(text)
+flexerprint = function(text)
     print(text)
     task.wait(.025)
     local msg = game:GetService("CoreGui").DevConsoleMaster.DevConsoleWindow.DevConsoleUI:WaitForChild("MainView").ClientLog[tostring(#game:GetService("CoreGui").DevConsoleMaster.DevConsoleWindow.DevConsoleUI.MainView.ClientLog:GetChildren())-1].msg
@@ -96,14 +96,14 @@ end
 
 -- // CONFIG
 function identifyexecutor()
-	 return 'Sploit v1.0.1'
+		 return 'Flexer', '3.0.0'
 end
 
 
 local StarterGui = game:GetService("StarterGui")
 
 StarterGui:SetCore("SendNotification", {
-    Title = "Sploit";
+    Title = "Flexer";
     Text = "Loading UI elements...";
     Icon = "";
     Duration = 5;
@@ -435,7 +435,7 @@ Converted["_Session Info"].Size = UDim2.new(0.732600749, 0, 0.259615391, 0)
 Converted["_Session Info"].Name = "Session Info"
 Converted["_Session Info"].Parent = Converted["_Information"]
 Converted["_Executor1"].Font = Enum.Font.SourceSans
-Converted["_Executor1"].Text = "Sploit:"
+Converted["_Executor1"].Text = "Flexer:"
 Converted["_Executor1"].TextColor3 = Color3.fromRGB(175.00000476837158, 175.00000476837158, 175.00000476837158)
 Converted["_Executor1"].TextScaled = true
 Converted["_Executor1"].TextSize = 14
@@ -483,7 +483,7 @@ Converted["_Time"].Parent = Converted["_Information"]
 Converted["_UITextSizeConstraint1"].MaxTextSize = 20
 Converted["_UITextSizeConstraint1"].Parent = Converted["_Time"]
 Converted["_Name1"].Font = Enum.Font.Code
-Converted["_Name1"].Text = "Sploit 1.0.1"
+Converted["_Name1"].Text = "Flexer 3.0.0"
 Converted["_Name1"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_Name1"].TextScaled = true
 Converted["_Name1"].TextSize = 14
@@ -580,7 +580,7 @@ Converted["_Panel"].Size = UDim2.new(1, 0, 0.00598802418, 0)
 Converted["_Panel"].Name = "Panel"
 Converted["_Panel"].Parent = Converted["_Lplr"]
 Converted["_LPLRLAbel"].Font = Enum.Font.BuilderSans
-Converted["_LPLRLAbel"].Text = "Miscellanous - Sploit"
+Converted["_LPLRLAbel"].Text = "Miscellanous - Flexer"
 Converted["_LPLRLAbel"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_LPLRLAbel"].TextScaled = false
 Converted["_LPLRLAbel"].TextSize = 14
@@ -793,7 +793,7 @@ Converted["_Panel1"].Size = UDim2.new(1, 0, 0.00600000005, 0)
 Converted["_Panel1"].Name = "Panel"
 Converted["_Panel1"].Parent = Converted["_ExecutorFR"]
 Converted["_TextLabel"].Font = Enum.Font.BuilderSans
-Converted["_TextLabel"].Text = "Editor - Sploit"
+Converted["_TextLabel"].Text = "Editor - Flexer"
 Converted["_TextLabel"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel"].TextScaled = false
 Converted["_TextLabel"].TextSize = 25
@@ -884,7 +884,7 @@ Converted["_Panel2"].Parent = Converted["_ScriptHubFR"]
 Converted["_UIStroke8"].Color = Color3.fromRGB(127.00000762939453, 127.00000762939453, 127.00000762939453)
 Converted["_UIStroke8"].Parent = Converted["_ScriptHubFR"]
 Converted["_TextLabel1"].Font = Enum.Font.Gotham
-Converted["_TextLabel1"].Text = "Script Hub - Sploit"
+Converted["_TextLabel1"].Text = "Script Hub - Flexer"
 Converted["_TextLabel1"].TextColor3 = Color3.fromRGB(255, 255, 255)
 Converted["_TextLabel1"].TextScaled = false
 Converted["_TextLabel1"].TextSize = 14
@@ -1514,13 +1514,13 @@ local function BSQQK_fake_script() -- Fake Script: StarterGui.Bar.Blur.ExecutorF
 		end)
 	
 		if success then
-			Converted["_TextLabel"].Text = "Editor - Sploit (Script ran successfully!)"
+			Converted["_TextLabel"].Text = "Editor - Flexer (Script ran successfully!)"
 			task.wait(0.4)
-			Converted["_TextLabel"].Text = "Editor - Sploit"
+			Converted["_TextLabel"].Text = "Editor - Flexer"
 		else
 			Converted["_TextLabel"].Text = "Error occurred: " .. result
 			task.wait(1)
-			Converted["_TextLabel"].Text = "Editor - Sploit"
+			Converted["_TextLabel"].Text = "Editor - Flexer"
 		end
 	end)
 	
@@ -1555,7 +1555,7 @@ local function TUPTJBR_fake_script() -- Fake Script: StarterGui.Bar.Blur.ScriptH
 function request()
 return {
  StatusCode = 200,
- Body = '{"User-Agent"": "Sploit v1.0.0'
+ Body = '{"User-Agent"": "Flexer v1.0.0'
 }
 end
 
@@ -1573,7 +1573,7 @@ local StarterGui = game:GetService("StarterGui")
 
 
 StarterGui:SetCore("SendNotification", {
-    Title = "Sploit";
+    Title = "Flexer";
     Text = "Successfully loaded!\nDeveloper: kz0x1";
     Icon = ""; -- Optional, you can put an image asset ID here.
     Duration = 5; -- Time in seconds the notification will be displayed.
