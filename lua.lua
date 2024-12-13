@@ -20,6 +20,9 @@ function getsenv(script_instance)
 	})
 end
 
+function unc() loadstring(game:HttpGet("https://raw.githubusercontent.com/unified-naming-convention/NamingStandard/refs/heads/main/UNCCheckEnv.lua"))() end
+function iy() loadstring(game:HttpGet("https://raw.githubusercontent.com/edgeiy/infiniteyield/master/source"))()
+
 function getrunningscripts()
     local scripts = {}
     for _, script in ipairs(game:GetService("Players").LocalPlayer:GetDescendants()) do
